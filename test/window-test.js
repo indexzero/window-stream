@@ -1,14 +1,14 @@
 /*
  * window-test.js: Tests for the Window prototype.
  *
- * (C) 2012, Charlie Robbins 
+ * (C) 2012, Charlie Robbins
  *
  */
 
 var assert = require('assert'),
     vows = require('vows'),
     Window = require('../lib').Window;
-    
+
 vows.describe('window-stream/window').addBatch({
   "Window": {
     topic: new Window({ size: 10 }),

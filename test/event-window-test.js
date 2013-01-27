@@ -1,14 +1,14 @@
 /*
  * window-test.js: Tests for the Window prototype.
  *
- * (C) 2012, Charlie Robbins 
+ * (C) 2012, Charlie Robbins
  *
  */
 
 var assert = require('assert'),
     vows = require('vows'),
     EventWindow = require('../lib').EventWindow;
-    
+
 vows.describe('window-stream/event-window').addBatch({
   "Window with simple values": {
     topic: function () {
@@ -16,7 +16,7 @@ vows.describe('window-stream/event-window').addBatch({
       [15, 20, 35, 40, 50].forEach(function (val) {
         window.write({ metric: val });
       });
-      
+
       return window;
     },
     "mean": function (win) {
