@@ -1,0 +1,20 @@
+{
+  "name": "window-stream",
+  "description": "A collection of streams for Windowing events",
+  "version": "0.0.0",
+  "author": "Charlie Robbins <charlie@nodejitsu.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/indexzero/window-stream.git"
+  },
+  "devDependencies": {
+    "vows": "0.7.x"
+  },
+  "main": "./lib/index",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "test": "vows --spec -i"
+  }
+}
