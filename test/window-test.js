@@ -16,12 +16,12 @@ vows.describe('window-stream/window').addBatch({
       assert.isFunction(win.end);
       assert.isFunction(win.percentile);
       assert.isFunction(win.rank);
-      assert.isNumber(win.mean);
-      assert.isNumber(win.sum);
-      assert.isNumber(win.variance);
-      assert.isNumber(win.stdDev);
-      assert.isNumber(win.median);
-      assert.isArray(win.sorted);
+      assert.isFunction(win.mean);
+      assert.isFunction(win.sum);
+      assert.isFunction(win.variance);
+      assert.isFunction(win.stdDev);
+      assert.isFunction(win.median);
+      assert.isFunction(win.sorted);
     }
   }
 }).export(module);

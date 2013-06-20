@@ -20,19 +20,19 @@ vows.describe('window-stream/event-window').addBatch({
       return window;
     },
     "mean": function (win) {
-      assert.equal(win.mean, 32);
+      assert.equal(win.mean(), 32);
     },
     "sum": function (win) {
-      assert.equal(win.sum, 160);
+      assert.equal(win.sum(), 160);
     },
     "median": function (win) {
-      assert.equal(win.median, 30);
+      assert.equal(win.median(), 30);
     },
     "variance": function (win) {
-      assert.equal(win.variance, 166);
+      assert.equal(win.variance(), 166);
     },
     "stdDev": function (win) {
-      assert.equal(win.stdDev, Math.sqrt(166));
+      assert.equal(win.stdDev(), Math.sqrt(166));
     },
     "percentile(p)": {
       "10%": function (win) {
