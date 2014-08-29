@@ -13,5 +13,8 @@
   "main": "./lib/index",
   "scripts": {
     "test": "vows --spec -i"
+  },
+  "dependencies": {
+    "clone": "~0.1.18"
   }
 }
