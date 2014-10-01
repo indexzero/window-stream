@@ -1,7 +1,7 @@
 {
   "name": "window-stream",
   "description": "A collection of streams for Windowing events",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "author": "Charlie Robbins <charlie@nodejitsu.com>",
   "repository": {
     "type": "git",
