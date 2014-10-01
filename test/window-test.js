@@ -22,6 +22,8 @@ vows.describe('window-stream/window').addBatch({
       assert.isFunction(win.stdDev);
       assert.isFunction(win.median);
       assert.isFunction(win.sorted);
+      assert.isFunction(win.min);
+      assert.isFunction(win.max);
     }
   }
 }).export(module);
